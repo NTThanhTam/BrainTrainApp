@@ -4,26 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".MemoryGame">
 
-    <TextView
-        android:id="@+id/text_home"
+    <Button
+        android:id="@+id/MemoryHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:visibility="invisible"
-        tools:layout_editor_absoluteY="324dp" />
-
-    <ImageButton
-        android:id="@+id/memorygameIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="206dp"
-        android:background="@drawable/memory_icon"
+        android:text="Home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06999999" />
-
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
