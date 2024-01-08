@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.braintrainapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_general"
+        android:name="com.example.braintrainapp.ui.general.GeneralFragment"
+        android:label="@string/menu_general"
+        tools:layout="@layout/fragment_general" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.braintrainapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_setting"
+        android:name="com.example.braintrainapp.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
 </navigation>
