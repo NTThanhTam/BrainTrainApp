@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+
         val memoryIcon: ImageButton = findViewById(R.id.memorygameIcon);
         memoryIcon.setOnClickListener {
             val intent = Intent(this, MemoryGame::class.java)
